@@ -1,5 +1,8 @@
 # Student Grade Predictor
 
+**[🚀 Try the Live Demo Here](https://student-grade-predictor-r3bcze4j7jgqu5trnda3io.streamlit.app/)**
+
+---
 ### Project Structure
 ```
 grade_predictor/
