@@ -1,6 +1,6 @@
 # Student Grade Predictor
 
-**[🚀 Try the Live Demo Here](https://student-grade-predictor-r3bcze4j7jgqu5trnda3io.streamlit.app/)**
+**[ Try the Live Demo Here](https://student-grade-predictor-r3bcze4j7jgqu5trnda3io.streamlit.app/)**
 
 ---
 ### Project Structure
