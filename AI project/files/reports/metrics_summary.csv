@@ -1,0 +1,5 @@
+Model,MAE,RMSE,R2,CV R2,CV Std
+Linear Regression,3.31,4.23,0.9349,0.9278,0.0062
+Ridge Regression,3.31,4.23,0.9349,0.9278,0.0062
+Random Forest,5.03,6.51,0.8455,0.8293,0.0148
+Gradient Boosting,4.23,5.44,0.892,0.883,0.0103
