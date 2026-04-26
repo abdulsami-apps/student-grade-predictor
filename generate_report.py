@@ -168,7 +168,7 @@ story.append(body(
 ))
 for step in [
     "<b>Label Encoding — Gender:</b> 'Female' mapped to 1, 'Male' to 0 (binary encoding).",
-    "<b>Label Encoding — Major:</b> Categorical major (CS, EE, BBA, Mathematics, Physics) mapped to integers 0–4.",
+    "<b>Label Encoding — Major:</b> Categorical major (CS, EE, BBA, Mathematics, B.Ed) mapped to integers 0–4.",
     "<b>Feature Scaling (StandardScaler):</b> All numerical features were standardised to zero mean and unit variance. This is critical for Linear Regression, Ridge, and Lasso which are sensitive to feature magnitude.",
     "<b>Train/Test Split:</b> Dataset split 80/20 with random_state=42 to ensure reproducibility.",
     "<b>No Missing Data Handling Required:</b> Dataset was generated without missing values; however the pipeline handles this cleanly.",
