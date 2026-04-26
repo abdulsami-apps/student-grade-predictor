@@ -35,7 +35,7 @@ def generate_dataset(n=1200):
     family_support  = rng.integers(1, 6, n)   # 1–5 scale
     stress_level    = rng.integers(1, 6, n)   # 1–5 (5=high stress)
     gender          = rng.choice(["Male","Female"], n)
-    major           = rng.choice(["CS","EE","BBA","Mathematics","Physics"], n)
+    major           = rng.choice(["CS","EE","BBA","Mathematics","B.Ed"], n)
 
     # Grade formula with realistic noise
     grade = (
