@@ -77,7 +77,7 @@ def preprocess(df):
     df = df.copy()
     # Encode categoricals
     df["gender_enc"] = (df["gender"] == "Female").astype(int)
-    major_map = {"CS":0,"EE":1,"BBA":2,"Mathematics":3,"Physics":4}
+    major_map = {"CS":0,"EE":1,"BBA":2,"Mathematics":3,"B.Ed":4}
     df["major_enc"] = df["major"].map(major_map)
     features = [
         "study_hours","attendance_pct","prev_gpa","assignments_done",
